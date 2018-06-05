@@ -1,0 +1,16 @@
+<p data-ng-bind="showResult()"></p>
+<p data-ng-bind="showResult2()"></p>
+<p data-ng-bind="rel.showResult()"></p>
+<p data-ng-bind="rel.showResult2()"></p>
+<p>1{{rel.showResult()}}</p>
+<p>2{{rel.result.name}}</p>
+<p>3{{showResult()}}</p>
+<p ng-repeat="r in rel.result">{{r.name}}</p>
+
+<p>5{{rel.showResult2()}}</p>
+<p>6{{rel.result2.object.name}}</p>
+<p>7{{showResult2()}}</p>
+<p data-ng-repeat="(key, data) in rel.result2">{{key}}</p>
+<p ng-repeat="(key, data) in result2">{{key}}</p>
+<p ng-repeat="r in rel.result2">{{r.name}}</p>
+<p ng-repeat="r in result2">{{r.name}}</p>

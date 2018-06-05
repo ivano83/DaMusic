@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="daMusicApp">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Da Music</title>
+		<script src="js/lib/angular.min.js"></script>
+		<script src="js/lib/angular-route.min.js"></script>
+		<script src="js/lib/angular-resource.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controller.js"></script>
+		<script src="js/service.js"></script>
+	</head>
+	<body ng-controller="DaMusicDetailCtrl as rel">
+		<div ng-include="'partial/header.html'" ></div>
+		<p>Prova provina</p>
+		<div ng-view></div>
+
+
+<p data-ng-bind="showResult()"></p>
+
+<p>3{{showResult().name}}</p>
+
+
+
+		<div ng-repeat="d in myArray">
+			<p>Name: {{ d.FullName }}</p>
+			<p>Went missing: {{ d.WentMissing }}</p>
+			<p>Age: {{ d.Age }}</p>
+			<p>Description: {{ d.Description }}</p>
+			<hr />
+		</div>
+
+
+</body>
+</html>

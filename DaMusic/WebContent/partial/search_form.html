@@ -1,0 +1,12 @@
+<form name="myForm" novalidate>
+ 
+    <input type="text" ng-model="relName"
+           name="relName" ng-required="true">
+     
+    <div ng-show="myForm.relName.$invalid">
+        Il nome della release è obbligatorio
+    </div>
+     
+    <button type="submit"  ng-click="retrieveRelease(relName)">Cerca</button>
+</form>
+

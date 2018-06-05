@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>it.fivano.dumusic</groupId>
-	<artifactId>DuMusic</artifactId>
+	<groupId>it.fivano.damusic</groupId>
+	<artifactId>DaMusic</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
-	<name>DuMusic</name>
+	<name>DaMusic</name>
 	<dependencies>
 <!-- 		<dependency> -->
 <!-- 			<groupId>org.wildfly.plugins</groupId> -->
@@ -42,14 +42,14 @@
 			<version>2.1.7</version>
 		</dependency>
 
+<!-- 		<dependency> -->
+<!-- 			<groupId>it.fivano.damusic</groupId> -->
+<!-- 			<artifactId>DaMusicBusiness</artifactId> -->
+<!-- 			<version>1.0.0</version> -->
+<!-- 		</dependency> -->
 		<dependency>
-			<groupId>it.fivano.dumusic</groupId>
-			<artifactId>DuMusicBusiness</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-		<dependency>
-			<groupId>it.fivano.dumusic</groupId>
-			<artifactId>DuMusicCommon</artifactId>
+			<groupId>it.fivano.damusic</groupId>
+			<artifactId>DaMusicCommon</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 
